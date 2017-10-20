@@ -1,0 +1,9 @@
+.item { 
+    flex-grow: 1
+}
+.direction {
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+}

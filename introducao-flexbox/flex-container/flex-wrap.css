@@ -1,0 +1,11 @@
+.flex {
+    flex-wrap: nowrap;
+    /* Valor padrão, não permite a quebra de linha.
+    flex-wrap: wrap;
+    Quebra a linha assim que um dos flex itens não puder mais ser compactado. */
+    /* flex-wrap: wrap-reverse; */
+    /* Quebra a linha assim que um dos flex itens não puder mais ser compactado. A quebra é na direção contrária, ou seja para a linha acima. */
+}
+.item {
+    width: 20%;
+}
