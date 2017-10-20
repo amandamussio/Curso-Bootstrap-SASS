@@ -1,0 +1,41 @@
+.container {
+    height: 70vh;
+}
+
+.item {
+    flex-grow: 1; 
+}
+
+.flex-start {
+	align-self: flex-start;
+}
+
+.flex-end {
+	align-self: flex-end;
+}
+
+.center {
+	align-self: center;
+}
+
+.baseline {
+    align-self: baseline;
+}
+
+.stretch {
+    align-self: stretch;
+}
+
+
+/* align-self: auto;
+// Valor inicial padrão. Vai respeitar o que for definido pelo align-items no flex-container.
+align-self: flex-start;
+// Alinha o item ao início.
+align-self: flex-end;
+// Alinha o item ao final.
+align-self: center;
+// Alinha o item ao centro.
+align-self: baseline;
+// Alinha o item a linha de base.
+align-self: stretch;
+// Estica o item. */

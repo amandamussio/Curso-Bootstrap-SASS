@@ -1,0 +1,33 @@
+/* .flex-start {
+    justify-content: flex-start;
+    Alinha os itens ao início do container.
+} */
+
+/* .flex-end {
+    justify-content: flex-end;
+    
+}
+
+.center {
+    justify-content: center;
+     Alinha os itens ao centro do container.
+}
+
+.space-between {
+	justify-content: space-between;
+}
+Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.
+
+.space-around {
+	justify-content: space-around;
+} 
+Cria um espaçamento entre os elementos. Os espaçamentos do meio são duas vezes maiores que o inicial e final.
+*/
+.flex {
+    justify-content: space-around;
+}
+.item {
+    width: 10%;
+    height: 10%;
+    
+}

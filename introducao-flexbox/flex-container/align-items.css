@@ -1,0 +1,23 @@
+.align-items {
+    height: 70vh;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+}
+.item {
+  flex: 1;
+}
+.align-baseline {
+    align-items: baseline;
+}
+/* align-items: stretch;
+// Valor padrão, ele que faz com que os flex itens cresçam igualmente.
+align-items: flex-start;
+// Alinha os itens ao início.
+align-items: flex-end;
+// Alinha os itens ao final.
+align-items: center;
+// Alinha os itens ao centro.
+align-items: baseline;
+// Alinha os itens de acordo com a linha base da tipografia. */
