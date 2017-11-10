@@ -12,67 +12,81 @@
   <body>
       
     <!-- HEADER -->
-    <header>
+    <header class="cabecalho">
+        <!-- container -->
         <div class="container">
+            <!-- row -->
 			<div class="row">
 
-			  <div class="col-md-4 col-sm-4 logo">
-				<div class="text-center">
-					<span class="align-self-center">Logo</span>
+              <!-- logo -->
+			  <div class="col-md-4 col-sm-4">
+				<div class="text-center logo">
+					<h1 class="align-self-center">Logo</h1>
 				</div>
-			  </div>
+              </div>
+              <!-- /logo -->
 
-			  <nav class="col-md-8 col-sm-8 menu">
-			  	<div class="text-center">
-			  		<span class="align-self-center">Menu</span>
-			  	</div>
+              <!-- menu -->
+			  <nav class="col-md-8 col-sm-8 ">
+			  	<ul class="menu list-unstyled d-flex justify-content-center">
+			  		<li><a href="">Menu 1</a></li>
+                    <li><a href="">Menu 2</a></li>
+                    <li><a href="">Menu 3</a></li>
+                </ul>
               </nav>
+              <!-- /menu -->
               
             </div> 
-		</div>
+            <!-- /row -->
+        </div>
+        <!-- container -->
     </header>
     <!-- /HEADER -->
 
-    <section class="content">
-        
-        <div class="container">
-            <div class="row justify-content-between">
+    <!-- CONTEÚDO -->
+    <section class="conteudo container">
+        <!-- row -->
+        <div class="row justify-content-between">
 
-                <article class="box col-md-3 col-sm-4">
+            <article class="col-lg-4 col-12">
+                <div class="box">
                     <h1>Titulo</h1>
                     <p>text text text text text text text text text text</p>
-                </article>
+                </div>
+            </article>
 
-                <article class="box col-md-3 col-sm-4">
+            <article class="col-lg-4 col-12">
+                <div class="box">
                     <h1>Titulo</h1>
                     <p>text text text text text text text text text text</p>
-                </article>
+                </div>
+            </article>
 
-                <article class="box col-md-3 col-sm-4">
+            <article class="col-lg-4 col-12">
+                <div class="box">
                     <h1>Titulo</h1>
                     <p>text text text text text text text text text text</p>
-                </article>
+                </div>
+            </article>
 
-            </div>
         </div>
     </section>
+    <!-- /CONTEÚDO -->
 
     <article class="container">
         <div class="row">
-            <div class="col">
-                <div class="item d-flex justify-content-end flex-wrap link-box">
-                    <p class="p-3 mr-auto">Chamada super foda</p>
-                    <a class="p-3" href="">saiba mais</a>
+            <div class="col-12">
+                <div class="chamada d-flex justify-content-around">
+                    <p>Chamada super foda</p>
+                    <a href="">saiba mais</a>
                 </div>
             </div>
         </div>
     </article>
 
-    <footer class="rodape container">
-        <div class="row">
-            <div class="col">
-                <h6 class="text-center">Rodapé</h6>
-            </div>
+    <footer class="container">
+        <div class="rodape">
+            <h6 class="text-center">Rodapé</h6>
         </div>
     </footer>
         
