@@ -1,0 +1,23 @@
+%center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+  
+  .container {
+    @extend %center;
+    width: 80%;
+  }
+
+  .image-cover {
+    @extend %center;
+    @extend .text;
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+  }

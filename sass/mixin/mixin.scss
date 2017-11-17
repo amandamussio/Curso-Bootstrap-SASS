@@ -1,0 +1,26 @@
+// $tamanho é um parâmetro e você pode repetir ele
+// quantas vezes você quiser dentro do mixin
+@mixin circulo($tamanho) {
+    width: $tamanho;
+    height: $tamanho;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }
+   
+// Dentro dos parênteses você indica o valor do parâmetro
+div {
+    background: blue;
+    @include circulo(100px);
+}

@@ -1,0 +1,23 @@
+.container, .image-cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text, .image-cover {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.image-cover {
+  width: 90px;
+  height: 90px;
+  background-color: blue;
+}
+ 
+
+ /*# sourceMappingURL= style.css.map */
