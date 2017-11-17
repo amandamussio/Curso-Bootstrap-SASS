@@ -1,3 +1,4 @@
+//map
 $profiles: (
     bandcamp: #4e9bac,
     delicious: #248cff,
@@ -50,7 +51,7 @@ $profiles: (
       color: #fff;
     }
   }
-  
+  // cada rede-social na lista de perfis
   @each $profile, $bgcolor in $profiles {
     .profile-link--#{$profile}:focus,
     .profile-link--#{$profile}:hover {
