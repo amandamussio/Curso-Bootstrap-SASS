@@ -1,26 +1,25 @@
-// $medida-picture:445;
-// $padding:10px;
-// $margin:5px;
-// $lorempixel: animals;
-// $color:skyblue;
+$medida-picture:445;
+$padding:10px;
+$margin:5px;
+$lorempixel: food;
+$color:skyblue;
 
-// @mixin get-picture($index,$contador) {
-    // @while $index < $contador {
-        // .picture-#{$contador} { 
-            // background-image: url('http://lorempixel.com/#{$medida-picture}/#{$medida-picture}/#{$lorempixel}/#{$contador}');
-            // color: red;
-        // }
-        // $contador: $contador + 1;
-    // }
-// }
+@mixin get-picture($contador,$numerodefotos) {
+    @while $contador < $numerodefotos {
+        .picture-#{$contador} { 
+            background-image: url('http://lorempixel.com/#{$medida-picture}/#{$medida-picture}/#{$lorempixel}/#{$contador}');
+        }
+        $contador: $contador + 1;
+    }
+}
 
 .pictures {
     display: flex;
-    flex-direction: row;
 	.picture {
-		// background-color: darken($color, 40%);
-		display: inline-block;
+		background-color: darken($color, 40%);
 		background-repeat: no-repeat;
-		// @include get-picture(10,0);
+        @include get-picture(1,10);
+        width: #{$medida-picture}px;
+        height: #{$medida-picture}px;
 	}
 }
